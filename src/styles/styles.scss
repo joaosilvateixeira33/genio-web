@@ -56,8 +56,9 @@ button{
 @media(max-width: 425px){
     body{
         background-repeat: no-repeat;
+        height: 100vh;
     }
-    
+
     img{
         width: 100vw;
     }
