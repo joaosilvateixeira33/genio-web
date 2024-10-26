@@ -50,6 +50,9 @@ button {
   img {
     width: 100vw;
   }
+  button {
+    background-color: #B74794;
+  }
 }
 @media (max-width: 768px) {
   main {

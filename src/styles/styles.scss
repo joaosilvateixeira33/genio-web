@@ -3,6 +3,8 @@
 $font-general: Sevillana, cursive;
 $brand-color-1: #fff;
 $brand-color-2: #007BFF;
+$button-mobile: #B74794;
+
 
 *{
     padding: 0;
@@ -54,6 +56,10 @@ button{
 @media(max-width: 425px){
     img{
         width: 100vw;
+    }
+
+    button{
+        background-color: $button-mobile;
     }
 }
 
