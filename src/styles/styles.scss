@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+$font-general: Sevillana, cursive;
+$brand-color-1: #fff;
+$brand-color-2: #007BFF;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/src/assets/bg-palacio.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    font-family: $font-general;
+    color: $brand-color-1;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    padding: 0.625rem;
+    font-size: 2.5rem;
+}
+
+img{
+    width: 35vw;
+}
+
+button{
+    font-family: $font-general;
+    color: $brand-color-1;
+    text-align: center;
+    background-color: $brand-color-2;
+    padding: 1.25rem;
+    border: none;
+    border-radius: 1.5625rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.875rem;
+    width: 18.75rem;
+    cursor: pointer;
+}
