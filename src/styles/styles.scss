@@ -54,6 +54,10 @@ button{
 }
 
 @media(max-width: 425px){
+    body{
+        background-repeat: no-repeat;
+    }
+
     img{
         width: 100vw;
     }
