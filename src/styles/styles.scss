@@ -4,7 +4,6 @@ $font-general: Sevillana, cursive;
 $brand-color-1: #fff;
 $brand-color-2: #007BFF;
 
-
 *{
     padding: 0;
     margin: 0;
@@ -52,8 +51,26 @@ button{
     cursor: pointer;
 }
 
-// 425
+@media(max-width: 425px){
+    img{
+        width: 100vw;
+    }
+}
 
-// 728
+@media(max-width: 768px){
+    main{
+        position: relative;
+    }
 
-// 1024
+    img{
+        width: 100vw;
+    }
+
+    button{
+        position: absolute;
+        bottom: -7px;
+        left: 200px;
+    }
+}
+
+@media(max-width: 1024){}

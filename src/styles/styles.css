@@ -44,4 +44,23 @@ button {
   font-size: 1.875rem;
   width: 18.75rem;
   cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  img {
+    width: 100vw;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    position: relative;
+  }
+  img {
+    width: 100vw;
+  }
+  button {
+    position: absolute;
+    bottom: -7px;
+    left: 200px;
+  }
 }/*# sourceMappingURL=styles.css.map */
